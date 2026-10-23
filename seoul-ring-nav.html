@@ -1,28 +1,49 @@
 <!doctype html>
-<html lang="ko">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>서울 100번 순환고속도로 · 네이버 지도 경로</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4f7f9"><title>环首尔一圈 · NAVER 地图路线</title>
 <style>
-*{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;background:#f4f7f9;color:#153146;margin:0}
-main{max-width:620px;margin:auto;padding:26px 17px 60px}h1{font-size:24px;margin:5px 0 8px}.subtitle{font-size:14px;color:#576978;margin:0 0 22px}.panel{padding:23px;background:#fff;border-radius:20px;box-shadow:0 5px 23px #10335612}
-h2{font-size:18px;margin:0 0 12px}ol{line-height:1.9;margin:0 0 20px;padding-left:25px}
-.button{display:block;text-align:center;border-radius:12px;padding:17px 9px;font-size:18px;font-weight:700;text-decoration:none;margin:12px 0}
-.primary{background:#03c75a;color:white}.alternate{background:#1769be;color:white}
-.note{margin-top:16px;padding:15px;border-radius:13px;background:#eaf0f5;color:#304b5b;font-size:14px;line-height:1.65}
-.warning{background:#fff8ea}.small{font-size:13px;color:#526778;line-height:1.5}
+*{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Apple SD Gothic Neo",sans-serif;background:#f4f7f9;color:#182d3e;margin:0}
+main{max-width:600px;margin:auto;padding:28px 18px 60px}.title{font-weight:800;font-size:25px;margin:3px 0 5px}.sub{color:#567085;margin:0 0 20px;font-size:14px}
+.panel{padding:22px 19px;background:#fff;border-radius:20px;box-shadow:0 6px 22px #07263b11}
+h2{font-size:18px;margin:0 0 14px}.guide{border:2px solid #eac977;background:#fff9e7;border-radius:16px;padding:17px 14px;margin:0 0 18px}
+.guideTitle{font-weight:800;font-size:20px;margin:0 0 12px}.step{display:flex;gap:10px;align-items:flex-start;margin:12px 0;font-size:16px;line-height:1.5}
+.num{background:#1c4968;border-radius:50%;color:white;font-weight:800;flex-shrink:0;display:grid;place-items:center;width:27px;height:27px;font-size:14px}
+.corner{font-size:35px;text-align:right;line-height:1;color:#bc6700;margin:-7px 0 0}.route{padding:10px 15px;background:#f4f7fb;border-radius:13px}
+ol{padding-left:22px;line-height:1.85;margin:3px 0;font-size:15px}
+.cta{display:block;text-align:center;background:#03c75a;border-radius:12px;color:white;font-weight:800;text-decoration:none;font-size:19px;padding:18px 10px;margin:16px 0}
+.alt{display:block;width:100%;background:#e8eff5;border:0;color:#213f53;padding:13px;border-radius:12px;font-size:15px;font-weight:600;margin:10px 0}
+.note{font-size:13px;line-height:1.65;color:#647484;margin:13px 0 0}.warn{background:#fff4ed;border-radius:12px;padding:12px 14px;color:#7d4816}
+#wechatSection{display:none}body.inWechat #wechatSection{display:block}body.inWechat #safariSection{display:none}
+.brand{font-size:13px;font-weight:700;color:#267449;margin-top:10px}
 </style></head>
-<body><main><h1>🚗 서울 외곽순환 한 바퀴</h1>
-<p class="subtitle">수도권제1순환고속도로 (100번) · 시계방향 · 경유지 5곳</p>
-<div class="panel">
-<h2>경유지 순서</h2>
-<ol><li>일산IC — 출발</li><li>송추IC</li><li>퇴계원IC</li><li>하남JC</li><li>판교JC</li><li>장수IC</li><li>고양IC — 도착</li></ol>
-<a class="button primary" href="nmap://route/car?slat=37.6361611&amp;slng=126.8046778&amp;sname=%EC%9D%BC%EC%82%B0IC&amp;v1lat=37.712667&amp;v1lng=126.9740139&amp;v1name=%EC%86%A1%EC%B6%94IC&amp;v2lat=37.6388361&amp;v2lng=127.1334889&amp;v2name=%ED%87%B4%EA%B3%84%EC%9B%90IC&amp;v3lat=37.5319&amp;v3lng=127.1963861&amp;v3name=%ED%95%98%EB%82%A8JC&amp;v4lat=37.4058222&amp;v4lng=127.0948306&amp;v4name=%ED%8C%90%EA%B5%90JC&amp;v5lat=37.4665361&amp;v5lng=126.7546889&amp;v5name=%EC%9E%A5%EC%88%98IC&amp;dlat=37.65&amp;dlng=126.832&amp;dname=%EA%B3%A0%EC%96%91IC&amp;appname=https%3A%2F%2Fraw.githack.com%2FHyunsama27%2Fintro-html%2Fshare-seoul-ring-20261023%2Fseoul-ring-nav.html">① NAVER 지도에서 경로 열기</a>
-<a class="button alternate" href="intent://route/car?slat=37.6361611&amp;slng=126.8046778&amp;sname=%EC%9D%BC%EC%82%B0IC&amp;v1lat=37.712667&amp;v1lng=126.9740139&amp;v1name=%EC%86%A1%EC%B6%94IC&amp;v2lat=37.6388361&amp;v2lng=127.1334889&amp;v2name=%ED%87%B4%EA%B3%84%EC%9B%90IC&amp;v3lat=37.5319&amp;v3lng=127.1963861&amp;v3name=%ED%95%98%EB%82%A8JC&amp;v4lat=37.4058222&amp;v4lng=127.0948306&amp;v4name=%ED%8C%90%EA%B5%90JC&amp;v5lat=37.4665361&amp;v5lng=126.7546889&amp;v5name=%EC%9E%A5%EC%88%98IC&amp;dlat=37.65&amp;dlng=126.832&amp;dname=%EA%B3%A0%EC%96%91IC&amp;appname=https%3A%2F%2Fraw.githack.com%2FHyunsama27%2Fintro-html%2Fshare-seoul-ring-20261023%2Fseoul-ring-nav.html#Intent;scheme=nmap;package=com.nhn.android.nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;end;">② 안드로이드 Chrome에서 열기</a>
-<p class="small">첫 번째 버튼은 아이폰/안드로이드 공용입니다. 첫 번째가 안 열리고 안드로이드라면 Chrome에서 이 페이지를 다시 연 뒤 두 번째 버튼을 눌러보세요.</p>
-<div class="note"><strong>열리지 않는 경우</strong><br>
-1. 휴대폰에 <strong>NAVER 지도 앱</strong>이 설치되어 있는지 확인<br>
-2. 카카오톡/위챗 화면에서 <strong>외부 브라우저로 열기</strong> 선택<br>
-3. 아이폰은 <strong>Safari</strong>, 안드로이드는 <strong>Chrome</strong>에서 이 페이지 열기<br>
-4. 위 초록색 버튼을 <strong>직접 누르기</strong> — 자동 이동을 기다리지 마세요.</div>
-<div class="note warning">⚠️ 출발 전에 경유지 5곳이 모두 등록되었는지 확인하세요. IC/JC의 임시 좌표를 사용하므로 네이버가 중간에 고속도로 진출을 안내할 수 있습니다. 100번 고속도로를 계속 타는 동선인지 반드시 확인하세요.</div>
-</div></main></body></html>
+<body><main><div class="title">🚗 环首尔一圈</div><p class="sub">수도권제1순환고속도로 (100号高速) · 顺时针</p>
+<section class="panel">
+<div id="wechatSection" class="guide"><div class="corner">↗</div><div class="guideTitle">微信里无法直接启动 NAVER 地图</div>
+<div class="step"><span class="num">1</span><span>点击本页面右上角的 <b>「···」</b>。</span></div>
+<div class="step"><span class="num">2</span><span>选择 <b>「在 Safari 中打开」</b> / <b>「在默认浏览器中打开」</b>（选项名称可能不同）。</span></div>
+<div class="step"><span class="num">3</span><span>到了 Safari，再点绿色 <b>「打开 NAVER 地图」</b> 按钮。</span></div>
+<p class="note">如果微信没有“在浏览器打开”：点击「复制链接」，退出微信，打开 Safari 并粘贴网址。</p>
+<button id="copyLink" class="alt" type="button">📋 复制当前分享链接</button>
+</div>
+<div id="safariSection"><h2>✅ 已准备好导航路线</h2>
+<p style="margin:0;font-size:15px">点下面的绿色按钮，在 NAVER 地图中载入完整路线。</p>
+<a class="cta" href="nmap://route/car?slat=37.6361611&amp;slng=126.8046778&amp;sname=%EC%9D%BC%EC%82%B0IC&amp;v1lat=37.712667&amp;v1lng=126.9740139&amp;v1name=%EC%86%A1%EC%B6%94IC&amp;v2lat=37.6388361&amp;v2lng=127.1334889&amp;v2name=%ED%87%B4%EA%B3%84%EC%9B%90IC&amp;v3lat=37.5319&amp;v3lng=127.1963861&amp;v3name=%ED%95%98%EB%82%A8JC&amp;v4lat=37.4058222&amp;v4lng=127.0948306&amp;v4name=%ED%8C%90%EA%B5%90JC&amp;v5lat=37.4665361&amp;v5lng=126.7546889&amp;v5name=%EC%9E%A5%EC%88%98IC&amp;dlat=37.65&amp;dlng=126.832&amp;dname=%EA%B3%A0%EC%96%91IC&amp;appname=https%3A%2F%2Fraw.githack.com%2FHyunsama27%2Fintro-html%2Fshare-seoul-ring-20261023%2Fseoul-ring-nav.html">NAVER 지도에서 경로 열기 ↗</a>
+<p class="note">如果没有唤起 App，请确认安装 NAVER 지도；从微信打开时，先切换到 Safari。</p>
+</div>
+<div class="route"><h2>预设路线 · 경유지 5곳</h2>
+<ol><li>일산IC（起点）</li><li>송추IC</li><li>퇴계원IC</li><li>하남JC</li><li>판교JC</li><li>장수IC</li><li>고양IC（终点）</li></ol></div>
+<p class="note warn">⚠️ 互通立交使用近似坐标。出发前请确认 NAVER 实际显示5个途经点，并且行车路线确实沿100号高速环行，避免被导航引出高速。</p>
+<p class="brand">微信 iPhone 专用兼容页面 · WeChat / Safari</p>
+</section></main>
+<script>
+(function(){
+ var wechat=/MicroMessenger/i.test(navigator.userAgent||"");
+ if(wechat){document.body.classList.add("inWechat")}
+ var button=document.getElementById("copyLink");
+ button.addEventListener("click",function(){
+   var url="https://raw.githack.com/Hyunsama27/intro-html/share-seoul-ring-20261023/seoul-ring-nav.html";
+   function fallback(){var box=document.createElement("textarea");box.value=url;document.body.appendChild(box);box.select();var ok=document.execCommand("copy");document.body.removeChild(box);button.textContent=ok?"✅ 已复制，粘贴到 Safari 即可":"长按复制链接："+url}
+   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){button.textContent="✅ 已复制，粘贴到 Safari 即可"}).catch(fallback)}else{fallback()}
+ });
+})();
+</script></body></html>
